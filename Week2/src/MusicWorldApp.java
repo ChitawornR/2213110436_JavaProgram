@@ -22,6 +22,7 @@ public class MusicWorldApp {
 		                              "\nTax rate: "+(TAX_RATE*100)+"%"+
 		                              "\nTotal: $"+cdTotal+
 		                              "\n\nEnd of Program");
+		
 	}
 }
 
