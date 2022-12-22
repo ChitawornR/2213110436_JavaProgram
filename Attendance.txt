@@ -1,5 +1,5 @@
-Date: 15-Dec-2022
+Date: 22-Dec-2022
 Student ID: 2213110436
 Fullname: Chitaworn Khirieksathit
 AKA: Riew
-Class Detail: Array in Java
+Class Detail: Class and Object, Array of Object
