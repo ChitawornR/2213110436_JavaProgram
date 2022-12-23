@@ -27,4 +27,9 @@ public class Product {
 	public double calculate() {
 		return unit*price;
 	}
+	public String chkGrade(int grade) {
+		if(grade<5) return "low";
+		else if(grade >= 5 && grade <50) return "normal";
+		else return "high";
+	}
 }
