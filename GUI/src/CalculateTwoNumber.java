@@ -141,7 +141,7 @@ public class CalculateTwoNumber extends JFrame {
 					}
 					lblResult.setText(frmNumber.format(sum));
 					if(chkDialogBox.isSelected()) {
-						JOptionPane.showMessageDialog(null, "Result is : "+sum);
+						JOptionPane.showMessageDialog(null, "Result is : "+frmNumber.format(sum));
 					}
 				}
 			}
