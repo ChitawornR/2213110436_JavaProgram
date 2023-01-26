@@ -3,17 +3,15 @@ public class AuthorDemo2 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String[] name = new String[4];
-		String[] email = new String[4];
 		Author[] at = new Author[4];
-		for(int i=0; i<name.length; i++) {
+		for(int i=0; i<4; i++) {
 			System.out.println("Information Author : "+(i+1));
 			System.out.println("------------------------------------------------");
 			System.out.print("Input author name  :");
-			name[i] = scan.nextLine();
+			String name = scan.nextLine();
 			System.out.print("Input author email :");
-			email[i] = scan.nextLine();
-			at[i] = new Author(name[i],email[i]);
+			String email = scan.nextLine();
+			at[i] = new Author(name,email);
 			System.out.println("------------------------------------------------");
 		}
 		System.out.println();
