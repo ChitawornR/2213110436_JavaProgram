@@ -1,5 +1,5 @@
-Date: 02-Feb-2023
+Date: 09-Feb-2023
 Student ID: 2213110436
 Fullname: Chitaworn Khirieksathit
 AKA: Riew
-Class Detail: Composition, Inheritance, and Polymorphism
+Class Detail: Exception + File (W / R)
