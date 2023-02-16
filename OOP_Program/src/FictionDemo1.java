@@ -10,6 +10,7 @@ public class FictionDemo1 {
 		int publiscYear = scan.nextInt();
 		FictionBook book = new FictionBook(title,publiscYear);
 		System.out.print("Input author name : ");
+		scan.nextLine();
 		String authorName = scan.nextLine();
 
 	}
